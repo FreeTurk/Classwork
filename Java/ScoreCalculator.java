@@ -15,7 +15,7 @@ public class ScoreCalculator {
     List<Double> passed = new ArrayList<Double>();
 
     for (int i = 0; i < 5; i++) {
-      finalP[i] = (double) (examP[i] * 0.4 + quizP[i] * 0.6);
+      finalP[i] = (double) (examP[i] * 0.7 + quizP[i] * 0.3);
     }
 
     double average = Arrays.stream(finalP).sum() / 5;
